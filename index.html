@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <script src="https://kit.fontawesome.com/27b0574623.js" crossorigin="anonymous"></script>
+    <title>Shortly URL shortening API Challenge</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./images/logo.svg" />
+      <img
+        src="./images/1814109_hamburger_menu_icon.png"
+        alt=""
+        class="hamburg"
+      />
+      <nav>
+        <ul>
+          <li>Features</li>
+          <li>Prizing</li>
+          <li>Resources</li>
+        </ul>
+        <hr class = 'nav-hr'>
+        <div class = "header-btn">
+          <span class="login">Login</span>
+          <button id = 'sign-up' class="sign-up btn">Sign Up</button>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="wrapper">
+        <div class="home">
+          <div class="home-left">
+            <h1 class="hl-tagline">More than just shorter links</h1>
+            <p class="hl-para">
+              Build your brand’s recognition and get detailed insights on how
+              your links are performing.
+            </p>
+            <button class="hl-btn btn">Get Started</button>
+          </div>
+          <div class="hr-img">
+            <img
+              src="./images/illustration-working.svg"
+              alt="#"
+              class="hr-img"
+            />
+          </div>
+        </div>
+        <div class="content">
+          <div class="search">
+            <div class="input_search">
+              <div class = 'div-shorten'>
+                <input id = "input-data" type="url" placeholder="Shorten a link here..." />
+                <span id = 'error'></span>
+              </div>
+              <input id = 'output-btn'class = 'btn2 input-btn' type="submit" value="Shorten It!" />
+            </div>
+          </div>
+          <ul id = 'list-data'></ul>
+          <div class="content-div">
+            <h3>Advanced Statistics</h3>
+            <p class="content-para">
+              Track how your links are performing across the web with our
+              advanced statistics dashboard.
+            </p>
+          </div>
+          <div class="cards">
+            <hr>
+            <div class="card card1">
+              <img class = 'icon-img' src="./images/icon-brand-recognition.svg" />
+              <h4>Brand Recognition</h4>
+              <p>
+                Boost your brand recognition with each click. Generic links don’t
+                mean a thing. Branded links help instil confidence in your
+                content.
+              </p>
+            </div>
+            <div class="card card2">
+              <img class = 'icon-img' src="./images/icon-detailed-records.svg" />
+              <h4>Detailed Records</h4>
+              <p>
+                Gain insights into who is clicking your links. Knowing when and
+                where people engage with your content helps inform better
+                decisions.
+              </p>
+            </div>
+            <div class="card card3">
+              <img class = 'icon-img' src="./images/icon-fully-customizable.svg" />
+              <h4>Fully Customizable</h4>
+              <p>
+                Improve brand awareness and content discoverability through
+                customizable links, supercharging audience engagement.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="boost">
+          <h3>Boost your links today</h3>
+          <button class="btn">Get Started</button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <h1>Shortly</h1>
+      <div class="footer-right">
+        <div class="footer_content">
+          <div class="f-content footer_content1">
+            <h5>Features</h5>
+            <div class = 'f-para'>
+              <p>Link Shortening</p>
+              <p>Branded Links</p>
+              <p>Analytics</p>
+            </div>
+          </div>
+          <div class=" f-content footer_content2">
+            <h5>Resources</h5>
+            <div class = 'f-para'>
+              <p>Blog</p>
+              <p>Developers</p>
+              <p>Support</p>
+            </div>
+          </div>
+          <div class=" f-content footer_content3">
+            <h5>Features</h5>
+            <div class = 'f-para'>
+              <p>About</p>
+              <p>Our Team</p>
+              <p>Careers</p>
+              <p>Contact</p>
+            </div>
+          </div>
+        </div>
+        <div class="social-links">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-pinterest"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </footer>
+    <script src = './index.js'></script>
+  </body>
+</html>
