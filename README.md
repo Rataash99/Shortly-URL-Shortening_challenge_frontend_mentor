@@ -115,7 +115,7 @@ Planning to build some projects using tailwind / bootstrap and REACT
 
 ### Useful resources
 
-- [Freecodecamp](9qr.de/WeMaGV) - This article helped me in understanding local storage and (because th e URL was too large I've shortened the URL using this project (^_^)> )
+- [Freecodecamp](https://forum.freecodecamp.org/t/how-to-store-dynamically-generated-list-items-in-localstorage-individually-so-each-with-their-own-key/299602) - This article helped in implementation of local storage.
 - [FontAwesome](https://fontawesome.com/) - If you want to use any icons in your project this is the goto place. I do recommend it, do check out.
 
 ## Author
