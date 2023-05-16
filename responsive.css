@@ -34,7 +34,11 @@
         min-width: 7rem;
         padding: 0.7rem;
     }
-    li:hover,.login:hover{
+    nav > ul > li:hover{
+        cursor: pointer;
+        color:black;
+    }
+    .login:hover{
         color:black;
         cursor: pointer;
     }
