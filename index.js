@@ -27,6 +27,7 @@ const fetchData = () => fetch(`https://api.shrtco.de/v2/shorten?url=${url}`)
     listData.append(li);
     localStorage.setItem('links', listData.innerHTML);
 })
+
 function getValues(){
     let storedValues = localStorage.getItem("links");
     if(storedValues){
@@ -52,7 +53,7 @@ let checkError = () => {
         return;
     }
     else if(/^(http(s):\/\/.)[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)$/g.test(url) == false){
-        error.innerText = 'Please add a valid link';
+        error.innerText = 'link might be missing https://';
         inputData.style.border = '2px solid hsl(0, 87%, 67%)';
         inputData.classList.add('placeholder-color');
         inputSearch.style.gap = '2rem';
