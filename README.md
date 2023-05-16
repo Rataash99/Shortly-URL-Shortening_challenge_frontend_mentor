@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
--[solution URL](https://github.com/Rataash99/Shortly-URL-Shortening_challenge_frontend_mentor)
+- [solution URL](https://github.com/Rataash99/Shortly-URL-Shortening_challenge_frontend_mentor)
 - [live site URL](https://astounding-sunshine-79eee8.netlify.app)
 
 ## My process
