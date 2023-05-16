@@ -41,8 +41,10 @@ let copyText = (text) => {
 }
 
 let copied = (e) => {
-    e.target.innerHTML = 'Copied!';
-    e.target.style.backgroundColor = "hsl(257, 27%, 26%)";
+    if(e.target.classList.contains('copy')){
+        e.target.innerHTML = 'Copied!';
+        e.target.style.backgroundColor = "hsl(257, 27%, 26%)";
+    }
 }
 let checkError = () => {
     if(inputData.value == ""){
