@@ -120,7 +120,7 @@ Planning to build some projects using tailwind / bootstrap and REACT
 
 ## Author
 
-- Linkedin - (https://www.linkedin.com/in/rohit-s-03a577137/)
+- Linkedin - [Rohit Singh] - (https://www.linkedin.com/in/rohit-s-03a577137/)
 - Frontend Mentor - [@Rataash99](https://www.frontendmentor.io/profile/Rataash99)
 - Showcase - [@rataash99](https://www.showwcase.com/rataash99)
 
