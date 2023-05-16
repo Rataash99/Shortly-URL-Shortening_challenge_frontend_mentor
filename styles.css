@@ -345,6 +345,7 @@ ul{
     color: white;
     background: hsl(180, 66%, 49%);
     width: 9rem;
+    transition-duration: 0.5s;
 }
 .btn:hover{
     background: hsl(180, 53%, 73%);
@@ -366,6 +367,7 @@ textarea:focus, input:focus{
     font-weight: bolder;
     color: white;
     background: hsl(180, 66%, 49%);
+    transition-duration: 0.5s;
 }
 .btn2:hover{
     background: hsl(180, 53%, 73%);
@@ -378,6 +380,7 @@ textarea:focus, input:focus{
     font-weight: bolder;
     color: white;
     background: hsl(180, 66%, 49%);
+    transition-duration: 0.5s;
 }
 .btn3:hover{
     background: hsl(180, 53%, 73%);

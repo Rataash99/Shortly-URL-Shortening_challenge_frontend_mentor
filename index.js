@@ -14,6 +14,7 @@ inputData.addEventListener('input', (e) => {
 const fetchData = () => fetch(`https://api.shrtco.de/v2/shorten?url=${url}`)
 .then(res => res.json())
 .then((result) => {
+    localStorage.getItem('links');
     let ans = result.result.short_link2;
     let li = document.createElement('li');
     li.innerHTML = 
@@ -24,7 +25,15 @@ const fetchData = () => fetch(`https://api.shrtco.de/v2/shorten?url=${url}`)
     <button onclick = "copyText('${ans}')"  class = 'copy btn3'>Copy</button>
     </div>`;
     listData.append(li);
+    localStorage.setItem('links', listData.innerHTML);
 })
+function getValues(){
+    let storedValues = localStorage.getItem("links");
+    if(storedValues){
+           listData.innerHTML=storedValues;
+    }
+}
+getValues();
 
 let copyText = (text) => {
     navigator.clipboard.writeText(text);
